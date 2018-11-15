@@ -1,0 +1,134 @@
+
+	body{background:maroon;}
+
+	.main_wrapper{
+		width: 1000px;
+		height: auto;
+		margin: auto;
+	}
+
+.header_wrapper{
+	width: 1000px;
+	height: 100px;
+	margin: auto;
+}
+
+#logo{float: left;}
+
+#banner{float: right;}
+
+.menubar{
+	width: 1000px;
+	height: 50px;
+	background: gray;
+	color: white;
+	margin-left: 50px;
+
+}
+
+#menu{
+	padding: 0;
+	margin: 0;
+	line-height: 50px;
+	margin-left: 5px;
+}
+
+#menu li {
+	list-style:none;
+	display: inline;
+
+}
+
+#menu a{
+	text-decoration: none;
+	color: white;
+	padding: 8px;
+	margin: 5px;
+	font-size: 20px;
+	font-family: sans-serif;
+	margin-top: 4px;
+
+}
+
+#menu a:hover{
+	color: orange;
+	font-weight: bolder;
+
+}
+
+#form{
+	line-height: 40px;
+	float: right;
+	padding-right:8px;
+	margin: 5px;
+
+
+}
+
+.content_wrapper{
+	width: 1000px;
+	heigt:800px;
+	margin: auto;
+	background: pink;
+}
+
+
+#content_area{
+	width: 1000px;
+	height: 800px;
+	background: pink;
+	margin-left: 50px;
+
+}
+
+#sidebar{
+	width: 200px;
+	height: 800px;
+	background: Black;
+	margin-left: 50px;
+  float: left;
+}
+
+#sidebar_title{
+	background:white;
+	color: black;
+	font-size: 22px;
+	font-family: arial;
+	padding: 5px;
+	text-align: center;
+}
+#cats{
+	padding: 0;
+	text-align: center;
+}
+#cats li{
+	list-style:none;
+	display: block;
+}
+
+#cats a{
+	color: white;
+	padding: 8px;
+	margin: 5px;
+	text-align: center;
+	font-size: 18px;
+	font-family: sans-serif;
+	text-decoration: none;
+
+}
+
+#cats a:hover{
+	color:orange;
+	font-weight: bolder;
+
+
+}
+
+#footer{
+	width: 1000px;
+	height: 50px;
+	background: gray;
+	margin-left: 50px;
+
+
+}
